@@ -2,7 +2,7 @@
 
 #RSpec.describe "homepage", :type => :view do
   # "if the user is not logged in, the page should show them a login link." do
-    visit '/'
+   # visit '/'
    # if !session[:name]
       vis
     #  click_button 'login'
