@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
 
   def destroy
     session.delete :name
-    redirect_to 'controller: 'sessions', action: 'destroy', method: 'post'}'
+    redirect_to 'controller: 'sessions', action: 'destroy'
   end
   
 end
