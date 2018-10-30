@@ -7,6 +7,8 @@ RSpec.describe "homepage", :type => :view do
       click_button 'login'
       expect(page.body).to include "Username"
     else
+          visit '/'
+
       expect(page.body).to include "hi, #{name}"
       click_button 'logout'
     end
