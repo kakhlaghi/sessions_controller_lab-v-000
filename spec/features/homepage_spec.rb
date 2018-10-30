@@ -1,4 +1,4 @@
-require 'rails_helper'
+#require 'rails_helper'
 
 #RSpec.describe "homepage", :type => :view do
   # "if the user is not logged in, the page should show them a login link." do
