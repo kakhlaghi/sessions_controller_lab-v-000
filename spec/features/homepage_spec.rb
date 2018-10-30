@@ -4,7 +4,7 @@
   # "if the user is not logged in, the page should show them a login link." do
    # visit '/'
    # if !session[:name]
-      vis
+     # vis
     #  click_button 'login'
      # expect(page.body).to include "Username"
 #    else
